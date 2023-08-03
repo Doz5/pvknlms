@@ -1,0 +1,122 @@
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #FF1493;
+      height: 150%;
+    }
+
+    .navbarColor
+    { 
+      height: 100px;
+      background-color: white !important; 
+      color: #FF1493;
+    }
+
+    input[type=text],input[type=date],input[type=password],input[type=time],input[type=email],input[type=number]
+    {
+      height: 30px;
+      margin-bottom: 5%;
+    }
+    /*select
+    {
+      height: 30px !important;
+      margin-bottom: 5%;
+    }*/
+
+    .required
+    {
+      color: red;
+      font-weight: bold;
+    }
+
+    .logoDarkTitle
+    {
+      background-color: #FF1493 !important;
+      color: white;
+    }
+
+    .logoGreenTitle
+    {
+      background-color:#00cc66 !important;
+      color: white;
+    }
+
+    .logoRedTitle
+    {
+      background-color:#ff0000 !important;
+      color: white;
+    }
+
+     .logoYellowTitle
+    {
+      background-color:#ffff00 !important;
+      color: white;
+    }
+
+     .logoPurpleTitle
+    {
+      background-color:#cc66ff !important;
+      color: white;
+    }
+
+    .logoOrangeTitle
+    {
+      background-color:#ff9900 !important;
+      color: white;
+    }
+
+    .logoDark
+    {
+      background-color: #FF1493; 
+      color:white;
+    }
+
+    .logoDark:hover
+    {
+      background-color: #FF1493;
+      color:white;
+    }
+
+    .logoBlue
+    {
+      background-color: #1db4df; 
+      color:white;
+    }
+
+    .labelAlign
+    {
+      text-align: right;
+      font-size: 13px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      .labelAlign {
+        text-align: left;
+      }
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+
+    body
+    {
+      font-family: 'Times New Roman', serif;
+    }
+
+    .sidehover:hover{
+      background-color: #ccc !important;
+    }
+
+    .tabColor
+    {
+      /*color: #19b4de !important;*/
+    }
+    /*.th
+    {
+      color: #c0003e !important;
+    }*/
